@@ -10,10 +10,11 @@ RobotApplication is coded to accept a file with list of commands to simulate rob
 
 ## Building the application
 Project can be build using maven commands
-> mvn install
+> mvn install or mvn package 
+> Results in an executable jar **robotsimulator.jar**
 
 # Running the application from command line
-> com.robot.RobotApplication ___input file path with list of commands___
+> java -jar robotsimulator.jar ___input file path with list of commands___
 
 ##### Assumptions
-- Maven, Java are pre installed
+- Maven, Java 11 are pre installed
