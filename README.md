@@ -58,7 +58,13 @@ Project can be build using maven commands
 ## Example Run 
 ___java -jar robotsimulator.jar c:/test/samplecommands.txt___
 
-Output:
+### Samplecommands.txt File Content
+    PLACE 0,0,NORTH
+    MOVE
+    REPORT
+    
+
+### Output:
 0,1,NORTH
 
 ##### Assumptions
