@@ -13,8 +13,14 @@ Project can be build using maven commands
 > mvn install or mvn package 
 > Results in an executable jar **robotsimulator.jar**
 
-# Running the application from command line
+## Running the application from command line
 > java -jar robotsimulator.jar ___input file path with list of commands___
+
+## Example Run 
+___java -jar robotsimulator.jar c:/test/samplecommands.txt___
+
+Output:
+0,1,NORTH
 
 ##### Assumptions
 - Maven, Java 11 are pre installed
